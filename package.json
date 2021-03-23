@@ -1,0 +1,29 @@
+{
+   "name": "try-typeorm",
+   "version": "1.0.0",
+   "main": "index.js",
+   "license": "MIT",
+   "devDependencies": {
+      "@types/koa": "^2.13.1",
+      "@types/koa-router": "^7.4.1",
+      "@types/node": "^8.0.29",
+      "nodemon": "^2.0.7",
+      "ts-node": "3.3.0",
+      "typescript": "3.3.3333"
+   },
+   "scripts": {
+      "start": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
+   },
+   "dependencies": {
+      "koa": "^2.13.1",
+      "koa-router": "^10.0.0",
+      "module-alias": "^2.2.2",
+      "mysql": "^2.14.1",
+      "mysql2": "^2.2.5",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.31"
+   },
+   "_moduleAliases": {
+      "@entity": "src/entity/"
+    }
+}
